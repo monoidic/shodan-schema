@@ -1,0 +1,14 @@
+{
+	"elastic": {
+		"username": "shodan",
+		"password": "hunter2",
+		"cluster": [
+			{
+				"host": "elastic.example.com",
+				"port": 9200,
+				"scheme": "http"
+			}
+		],
+		"index_name": "shodan"
+	}
+}
